@@ -5,71 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="perfect solution for business problem" />
     <title>Business Solutions</title>
+
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />"
+  <!--Start of styling-->
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="/">Studio</a></li>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html">WebStudio</a>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+            <a class="header-nav-item" href="/">Studio</a>
           </li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a><br /></li>
+          <li>
+            <a class="header-nav-item" href="/">Portfolio</a>
+          </li>
+          <li>
+            <a class="header-nav-item" href="/">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="contact">
+        <ul>
+          <li>
+            <a class="contact-info" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ><br />
+          </li>
+          <li>
+            <a class="contact-info" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            ><br />
+          </li>
         </ul>
       </address>
     </header>
+    
     <!--Unique content-->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
 
-      <section>
+      <section class="pros">
         <h2 hidden>Our advantages</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="pros-title">Strategy</h3>
 
-            <p>
+            <p class="pros-descr">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="prost-title">Punctuality</h3>
+            <p class="pros-descr">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="pros-title">Diligence</h3>
+            <p class="pros-ldescr">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="pros-title">Technologies</h3>
+            <p class="pros-descr">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -77,26 +93,26 @@
         </ul>
       </section>
       <!--Team-->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
+      <section class="team">
+        <h2 class="team-title">Our Team</h2>
+        <ul class="team-list">
           <li>
-            <img src="./images/img1.jpg" alt="mark guerrero" width="264" />
+            <img class="team-member" src="./images/img1.jpg" alt="mark guerrero" width="264" />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
-            <img src="./images/img2.jpg" alt="tom ford" width="264" />
+            <img class="team-member" src="./images/img2.jpg" alt="tom ford" width="264" />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
-            <img src="./images/img3.jpg" alt="camila garcia" width="264" />
+            <img class="team-member" src="./images/img3.jpg" alt="camila garcia" width="264" />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="./images/img4.jpg" alt="daniel wilson" width="264" />
+            <img class="team-member" src="./images/img4.jpg" alt="daniel wilson" width="264" />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
@@ -140,7 +156,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="bottom">
       <a href="./index.html">WebStudio</a>
       <p>
         Increase the flow of customers and sales for your business with digital
