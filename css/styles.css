@@ -26,12 +26,14 @@ a {
 .header {
 
 }
-
+.contacts {
+ 
+}
 
 .header-logo,
 .bottom-logo {
   color: #4D5AE5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -66,8 +68,8 @@ a {
   letter-spacing: 0.02em; 
 }
 
-.header-contacts-info .link:hover,
-.header-contacts-info .link:focus {
+.header-contacts-list-info .link:hover,
+.contacts-info .link:focus {
  color: #4D5AE5
 }
 
@@ -88,20 +90,26 @@ letter-spacing: 0.02em;
 }
 
 .hero-button {
- border-radius: 4px;
  background-color: #4D5AE5;
- box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
  color: #FFF;
 /* Button Text */
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em; 
+cursor: pointer
 }
   
-.hero-button .link:hover,
-.hero-button .link:focus {
+.button .link:hover,
+.button .link:focus {
   background-color: #404BBF;
+}
 
+.team {
+  color: #F4F4FD;
+}
+
+.team-list {
+  background-color: #FFFFFF;
 }
 
 
@@ -109,18 +117,16 @@ letter-spacing: 0.04em;
 .team-member-name,
 .portfolio-item-name {
   color: #2E2F42;
-  /* Header 3 */
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.4px; 
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em; 
 }
 
 
 .advantages-descr,
 .team-position,
-.portfolio-item-descr
-.bottom-descr {
+.portfolio-item-descr {
   color: #434455;
 line-height: 1.5;
 letter-spacing: 0.02em; 
@@ -131,7 +137,7 @@ letter-spacing: 0.02em;
   color: #2E2F42;
  font-size: 36px;
  line-height: 1.11;
- letter-spacing: 0.06em;
+ letter-spacing: 0.02em;
  text-align: center;
  text-transform: capitalize; 
 }
@@ -145,4 +151,6 @@ letter-spacing: 0.02em;
 
 .bottom-descr {
   color: #F4F4FD; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
