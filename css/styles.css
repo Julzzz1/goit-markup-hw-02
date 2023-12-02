@@ -23,36 +23,28 @@ a {
   color: currentColor;
   cursor: pointer;
 }
-
-
-
-/* Header */
 .header {
- 
+
 }
 
-.logo-dark {
+
+.header-logo,
+.bottom-logo {
   color: #4D5AE5;
-font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+}
+
+.logo-black {
+  color: #2E2F42; 
 }
 
 .header-nav {
 
-}
-
-.logo {
-  color: #2E2F42;
-  font-family: Raleway;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 }
 
 .header-list {
@@ -76,7 +68,7 @@ text-transform: uppercase;
 
 .header-contacts-info .link:hover,
 .header-contacts-info .link:focus {
-  color: #4D5AE5
+ color: #4D5AE5
 }
 
 
@@ -112,12 +104,10 @@ letter-spacing: 0.04em;
 
 }
 
-.advantages {
-}
 
-.advantages-title, 
+.advantages-list-title, 
 .team-member-name,
-.portfolio-name {
+.portfolio-item-name {
   color: #2E2F42;
   /* Header 3 */
   font-size: 20px;
@@ -129,23 +119,30 @@ letter-spacing: 0.04em;
 
 .advantages-descr,
 .team-position,
-.portfolio-name-descr {
+.portfolio-item-descr
+.bottom-descr {
   color: #434455;
 line-height: 1.5;
 letter-spacing: 0.02em; 
 }
 
-
-.team {
-background-color: #F4F4FD; 
-}
-
-.team-title
+.team-title,
 .portfolio-title {
   color: #2E2F42;
-text-align: center;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.06em;
-text-transform: capitalize; 
+ font-size: 36px;
+ line-height: 1.11;
+ letter-spacing: 0.06em;
+ text-align: center;
+ text-transform: capitalize; 
+}
+
+.bottom {
+  background-color: #2E2F42;
+}
+.logo-white {
+  color: #F4F4FD; 
+}
+
+.bottom-descr {
+  color: #F4F4FD; 
 }
