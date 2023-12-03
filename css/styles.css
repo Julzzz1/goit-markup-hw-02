@@ -21,9 +21,6 @@ button {
   cursor: pointer;
 }
 
-address {
-  font-style: normal;
-}
 
 
 /* Header */
@@ -74,6 +71,10 @@ letter-spacing: 0.02em;
 .header-link:hover,
 .header-link:focus {
   color:#404BBF;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contacts-link {
