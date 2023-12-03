@@ -71,6 +71,10 @@ letter-spacing: 0.02em;
   color:#404BBF;
 }
 
+.address {
+font-style: normal;
+}
+
 .contacts-link {
   color: #434455;
 
@@ -106,6 +110,7 @@ letter-spacing: 0.02em;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em; 
+cursor: pointer;
 }
   
 .hero-button:hover,
@@ -116,6 +121,10 @@ letter-spacing: 0.04em;
 
 .team {
   background-color: #F4F4FD; 
+}
+
+.team-members {
+  background-color: #ffffff;
 }
 
 .advantages-title {
@@ -140,7 +149,7 @@ letter-spacing: 0.02em;
 
 .advantages-descr,
 .team-position,
-.portfolio-item-descr {
+.portfolio-descr {
   color: #434455;
 line-height: 1.5;
 letter-spacing: 0.02em; 
@@ -155,7 +164,7 @@ font-family: Roboto;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 1.1;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;  
 }
