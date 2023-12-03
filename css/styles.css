@@ -14,20 +14,16 @@ ul {
   list-style-type: none;
 }
 a {
-  color: currentColor;
-  text-decoration: none;
+ text-decoration: none;
 }
 
 .button {
-  font-family: inherit;
-  color: currentColor;
-  cursor: pointer;
+ cursor: pointer;
 }
+
+/* Header */
 .header {
 
-}
-.contacts {
- 
 }
 
 .header-logo,
@@ -53,29 +49,43 @@ a {
 
 }
 
-.header-list-item {
+.header-item {
+  
+}
+
+
+.header-link {
   color: #2E2F42;
-  font-weight: 500;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em; 
+}
+
+.header-link:active {
+  color: #404BBF;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color:#404BBF;
+}
+
+.contacts-link {
+  color: #434455;
+
+  /* Body */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.header-contacts {
-  color: #434455;
-  font-family: Roboto;
-  font-style: normal; 
-  line-height: 1.5;
-  letter-spacing: 0.02em; 
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404BBF;
 }
-
-.header-contacts-list-info .link:hover,
-.contacts-info .link:focus {
- color: #4D5AE5
-}
-
-
-
-
 /* Hero */
 .hero {
   background-color: #2e2f42;
@@ -96,33 +106,37 @@ letter-spacing: 0.02em;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em; 
-cursor: pointer
 }
   
-.button .link:hover,
-.button .link:focus {
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
   background-color: #404BBF;
 }
 
 .team {
-  color: #F4F4FD;
+  background-color: #F4F4FD; 
 }
 
-.team-list {
-  background-color: #FFFFFF;
-}
-
-
-.advantages-list-title, 
-.team-member-name,
-.portfolio-item-name {
+.advantages-title {
   color: #2E2F42;
+/* Header 3 */
+font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em; 
 }
 
+.team-name,
+.portfolio-name {
+  color: #2E2F42;
+/* Header 3 */
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em; 
+}
 
 .advantages-descr,
 .team-position,
@@ -135,11 +149,15 @@ letter-spacing: 0.02em;
 .team-title,
 .portfolio-title {
   color: #2E2F42;
- font-size: 36px;
- line-height: 1.11;
- letter-spacing: 0.02em;
- text-align: center;
- text-transform: capitalize; 
+text-align: center;
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;  
 }
 
 .bottom {
